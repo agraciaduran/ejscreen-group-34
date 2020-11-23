@@ -1,0 +1,21 @@
+---
+title: "Group 34 CA pollution burden"
+author: "Andrea Gracia, Shelby Smith"
+date: "11/23/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Attach packages and load data 
+```{r}
+library(tidyverse)
+library(janitor)
+library(here)
+
+ces <- read.csv(here("data", "ces3demographics.csv")) %>% 
+  clean_names()
+```
+
