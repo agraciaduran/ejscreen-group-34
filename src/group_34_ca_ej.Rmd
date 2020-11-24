@@ -26,7 +26,7 @@ ces %>%
   geom_hex()+
   labs(x="% white population", 
        y="CalEnviroScreen 3.0 Score")+
-  scale_fill_gradient(low="darkorchid4", high = "magenta")+
+  scale_fill_gradient(low="darkorchid4", high= "magenta")+
   theme_minimal()
 ```
 
