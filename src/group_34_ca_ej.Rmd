@@ -25,8 +25,8 @@ ces %>%
   ggplot(aes(x=white, y=ces_3_0_score))+
   geom_hex()+
   labs(x="% white population", 
-       y="CalEnviroScreen 3.0 Score")+
-  scale_fill_gradient(low="darkorchid4", high= "magenta")+
+       y="CalEnviroScreen 3.0 Score", caption= "Figure 1. describes the percentage of white population in a community vs its total CES 3.0 scores")+
+  scale_fill_gradient(low="navy", high= "orange")+
   theme_minimal()
 ```
 
