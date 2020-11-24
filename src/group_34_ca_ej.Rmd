@@ -25,8 +25,9 @@ ces %>%
   ggplot(aes(x=white, y=ces_3_0_score))+
   geom_hex()+
   labs(x="% white population", 
-       y="CalEnviroScreen 3.0 Score", caption= "Figure 1. describes the percentage of white population in a community vs its total CES 3.0 scores")+
+       y="CalEnviroScreen 3.0 Score", title= "Percentage of White Population in a Community vs Total CES 3.0 scores in CA")+
   scale_fill_gradient(low="navy", high= "orange")+
   theme_minimal()
 ```
 
+The overall trends of this graph show that the communities with a higher percentage people that identify as white tend to have lower CalEnviroScreen 3.0 scores. Alternatively, communities with a lower percentage of white community members tend to have higher CalEnviroScreen 3.0 scores. 
